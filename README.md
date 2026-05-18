@@ -1,6 +1,6 @@
 # ServiceNow Queue Automator 🚀
 
-Uma ferramenta automatizada de monitoramento e alertas do lado do cliente, escrita em JavaScript puro e implantada como um Userscript de navegador via Tampermonkey. Ela analisa dinamicamente os ambientes DOM do ServiceNow para eliminar tarefas repetitivas de monitoramento e acelerar a triagem de incidentes.
+Uma ferramenta automatizada de monitoramento e alertas do lado do cliente (client-side), o script lê a tela (o HTML/DOM) que o servidor da ServiceNow já enviou para o seu computador, escrita em JavaScript puro e implantada como um Userscript de navegador via Tampermonkey. Ela analisa dinamicamente os ambientes DOM do ServiceNow para eliminar tarefas repetitivas de monitoramento e acelerar a triagem de incidentes.
 
 ## 🎯 O Problema Operacional
 Em ecossistemas de suporte corporativo, os analistas executam constantemente atualizações manuais do navegador para detectar incidentes de alta prioridade. Essa sobrecarga manual cria latência operacional e fadiga visual.
