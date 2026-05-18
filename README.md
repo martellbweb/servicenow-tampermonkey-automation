@@ -7,7 +7,7 @@ In enterprise support ecosystems, analysts constantly execute manual browser ref
 
 ## 💡 The Solution 
 This script programmatically executes lightweight background scans across the rendered DOM and Shadow DOM components. It immediately creates high-visibility structural overlays and sound alerts when a target incident appears.
-
+![Demonstração do Alerta Visual](src/assets/alerta-tela.jpg.jpg)
 ## ✨ Key Technical Competencies
 - **Shadow DOM Traversal:** Iterates through encapsulated web components.
 - **Asynchronous State Evaluation:** Stateful polling loops.
