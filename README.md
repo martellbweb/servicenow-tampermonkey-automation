@@ -1,19 +1,21 @@
 # ServiceNow Queue Automator 🚀
 
-An automated client-side monitoring and alert tool written in vanilla JavaScript, deployed as a browser Userscript via Tampermonkey. It dynamically parses ServiceNow DOM environments to eliminate repetitive monitoring tasks and accelerate incident triage.
+Uma ferramenta automatizada de monitoramento e alertas do lado do cliente, escrita em JavaScript puro e implantada como um Userscript de navegador via Tampermonkey. Ela analisa dinamicamente os ambientes DOM do ServiceNow para eliminar tarefas repetitivas de monitoramento e acelerar a triagem de incidentes.
 
-## 🎯 The Operational Problem
-In enterprise support ecosystems, analysts constantly execute manual browser refreshes to detect high-priority incidents. This manual overhead creates operational latency and visual fatigue.
+## 🎯 O Problema Operacional
+Em ecossistemas de suporte corporativo, os analistas executam constantemente atualizações manuais do navegador para detectar incidentes de alta prioridade. Essa sobrecarga manual cria latência operacional e fadiga visual.
 
-## 💡 The Solution 
-This script programmatically executes lightweight background scans across the rendered DOM and Shadow DOM components. It immediately creates high-visibility structural overlays and sound alerts when a target incident appears.
+## 💡 A Solução
+Este script executa programaticamente varreduras leves em segundo plano nos componentes DOM renderizados e Shadow DOM. Ele cria imediatamente sobreposições estruturais de alta visibilidade e alertas sonoros quando um incidente alvo aparece.
+
 ![Demonstração do Alerta Visual](src/assets/alerta-tela.jpg.jpg)
-## ✨ Key Technical Competencies
-- **Shadow DOM Traversal:** Iterates through encapsulated web components.
-- **Asynchronous State Evaluation:** Stateful polling loops.
-- **Dynamic DOM Manipulation:** Programmatically injects UI elements.
+## ✨ Principais Competências Técnicas
+- **Navegação no Shadow DOM:** Itera por componentes web encapsulados.
+- **Avaliação de Estado Assíncrona:** Loops de polling com estado.
 
-## 🛠️ Technologies
+- **Manipulação Dinâmica do DOM:** Injeção programática de elementos da interface do usuário.
+
+## 🛠️ Tecnologias
 - JavaScript (ES6+)
 - Tampermonkey
-- DOM Manipulation
+- Manipulação do DOM
