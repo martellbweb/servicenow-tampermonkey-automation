@@ -19,3 +19,4 @@ Este script executa programaticamente varreduras leves em segundo plano nos comp
 - JavaScript (ES6+)
 - Tampermonkey
 - Manipulação do DOM
+- AutoRefresh Extesion
